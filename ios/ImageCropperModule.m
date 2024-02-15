@@ -1,8 +1,11 @@
-//
-//  ImageCropperModule.m
-//  
-//
-//  Created by Георгий Беридзе on 15.02.24.
-//
+// ImageCropperModule.m
 
-#import <Foundation/Foundation.h>
+#import <React/RCTBridgeModule.h>
+
+@interface RCT_EXTERN_MODULE(ImageCropperModule, NSObject)
+
+RCT_EXTERN_METHOD(cropImage:(NSString *)imagePath
+                  withResolver:(RCTPromiseResolveBlock)resolve
+                  withRejecter:(RCTPromiseRejectBlock)reject)
+
+@end

@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ImageCropperModule.m">
+   </FileRef>
+   <FileRef
+      location = "group:ImageCropperModule.swift">
+   </FileRef>
+   <FileRef
       location = "group:CutImage.xcodeproj">
    </FileRef>
    <FileRef
